@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f1m2js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">museum online javascript</h1>
+    <p id="mkblauw">Maak achtergrond blauw</p>
+    <p id="black">maak alles zwart</p>
+    <p id="hahahahaha">hahahahaha</p>
+
+    <p id="green">green</p>
+    <p id="geel">geel</p>
+    <p id="paars">paars</p>
+
+    <p id="roze">roze</p>
+    <p id="mint">mint</p>
+    <p id="rood">rood</p>
+
+    <script>
+        const title = document.getElementById("title");
+        const mkblauw = document.getElementById("mkblauw");
+        const black = document.getElementById("black");
+        const hahahahaha = document.getElementById("hahahahaha");
+
+        const green = document.getElementById("green");
+        const geel = document.getElementById("geel");
+        const paars = document.getElementById("paars");
+
+        const roze = document.getElementById("roze");
+        const mint = document.getElementById("mint");
+        const rood = document.getElementById("rood");
+
+        title.style.backgroundColor = "red";
+
+        title.addEventListener('click',voeruittitle);
+        mkblauw.addEventListener('click',voeruitblauw);
+        black.addEventListener('click',voeruitblack);
+        hahahahaha.addEventListener('click',haha);
+        green.addEventListener('click',greenn);
+        geel.addEventListener('click',geell);
+        paars.addEventListener('click',paarss);
+        roze.addEventListener('click',rozee);
+        mint.addEventListener('click',mintt);
+        rood.addEventListener('click',roodd);
+
+        function voeruittitle(){
+            title.style.backgroundColor = "black";
+            title.style.color = "white";
+        }
+
+        function voeruitblauw(){
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "white";
+            title.style.backgroundColor = "white";
+            title.style.color = "black";
+        }
+
+        function voeruitblack(){
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "black";
+            title.style.color = "black";
+            title.style.backgroundColor = "black";
+        }
+
+        function haha(){
+            document.body.style.backgroundImage = "url('img/download.jfif')";
+        }
+
+        function greenn(){
+            document.body.style.backgroundColor = "green";
+        }
+
+        function geell(){
+            document.body.style.backgroundColor = "yellow";
+        }
+
+        function paarss(){
+            document.body.style.backgroundColor = "purple";
+        }
+
+        function rozee(){
+            document.body.style.backgroundColor = "pink";
+        }
+
+        function mintt(){
+            document.body.style.backgroundColor = "mediumspringgreen";
+        }
+
+        function roodd(){
+            document.body.style.backgroundColor = "red";
+        }
+
+    </script>
+    
+</body>
+</html>
