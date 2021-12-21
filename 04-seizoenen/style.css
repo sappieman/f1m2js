@@ -1,0 +1,23 @@
+*{
+    background-color:gray;
+}
+
+body img{
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+body #mytitle{
+    text-decoration: none;
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+button{
+    background-color: white;
+}
