@@ -5,3 +5,4 @@
 [website](http://32973.hosts1.ma-cloud.nl/f1m2js/)\
 [Boodschappen](https://32973.hosts1.ma-cloud.nl/Boodschappen/index.html)\
 [03-tentonstelling](http://32973.hosts1.ma-cloud.nl/03-tentonstelling/)\
+[04-seasons](http://32973.hosts1.ma-cloud.nl/04-seizoenen/)
