@@ -3,4 +3,4 @@
 ## javascript
 
 [website](http://32973.hosts1.ma-cloud.nl/f1m2js/)
-[website](http://32973.host1.ma-cloud.nl/boodschappen/)
+[Boodschappen](https://32973.hosts1.ma-cloud.nl/Boodschappen/index.html)
